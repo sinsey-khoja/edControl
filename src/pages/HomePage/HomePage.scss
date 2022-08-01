@@ -1,0 +1,27 @@
+.home-page {
+  padding: 36px 42px 49px 40px;
+  overflow: auto;
+  scroll-snap-type: mandatory;
+  .home-page__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #323B4B;
+    padding-bottom: 24px;
+  }
+
+  .total-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  .active-groups{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  .best-teachers{
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,51 @@
+.best-teachers__box {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 24px 24px 20px 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 20px rgba(22, 22, 22, 0.05);
+  border-radius: 15px;
+
+  .best-teachers__box_info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .info-text {
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      h3 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        color: #323B4B;
+      }
+
+      p {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        color: #B0B7C3;
+      }
+    }
+  }
+
+  .btn_more-info {
+    padding: 18px 125px;
+    color: #377DFF;
+    background: #377DFF1a;
+    border-radius: 12px;
+  }
+}

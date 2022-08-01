@@ -1,0 +1,39 @@
+.grup-card {
+  display: flex;
+  gap: 16px;
+  img {
+    width: 120px;
+    height: 70px;
+    border-radius: 8px;
+  }
+
+  &_info {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 100%;
+      color: #323B4B;
+      padding-bottom: 12px;
+    }
+
+    p {
+      gap: 8px;
+      display: flex;
+      align-items: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 100%;
+      color: #B0B7C3;
+      padding-bottom: 10px;
+      i{
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
